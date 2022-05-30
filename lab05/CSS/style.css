@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    background: #312e2b;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.echiquier{
+    width: 400px;
+    height: 400px;
+}
+
+.case{
+    box-sizing:border-box;
+    width: 50px;
+    height: 50px;
+    float:right
+}
+
+.case:hover{
+    border:2px solid #dedede
+}
+
+.caseNoir{
+background: #eeeee2;
+}
+
+.caseBlanche{
+background: #759656;
+}
+
+.caseBlanche.caseDanger{
+    background: #d46b51;
+    border:1px #312e2b;
+}
+    
+.caseNoir.caseDanger{
+    background: #d46b41;
+    border:1px #312e2b;
+}
+
+.caseBlanche.caseSelect{
+    background: #bacb2b;
+    border:1px #312e2b;
+}
+
+.caseNoir.caseSelect{
+    background: #f7f76a;
+    border:1px #312e2b;
+}
+
+
